@@ -8,7 +8,7 @@ public class CRUD {
         String urlDB = "jdbc:mysql://localhost:3306/perpustakaan"; 
         try {
             conn = DriverManager.getConnection(urlDB, "root", "");
-            System.out.println("Sukses terhubung ke databs");
+            System.out.println("Sukses terhubung ke databse");
             return "Sukses terhubung ke databse";
         } catch (Exception e) {
             return e.toString();
