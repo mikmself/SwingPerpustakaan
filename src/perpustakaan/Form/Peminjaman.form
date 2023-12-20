@@ -126,37 +126,29 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+              <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="labelTanggal" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="labelBuku" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="labelMahasiswa" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="labelId" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="labelPegawai" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="txtId" pref="280" max="32767" attributes="0"/>
-                                  <Component id="txtBuku" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtTanggal" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtMahasiswa" max="32767" attributes="0"/>
-                                  <Component id="txtPegawai" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="btnTambah" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnKembali" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="labelTanggal" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelBuku" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelMahasiswa" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelId" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelPegawai" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtId" pref="280" max="32767" attributes="0"/>
+                          <Component id="txtBuku" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtTanggal" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtMahasiswa" max="32767" attributes="0"/>
+                          <Component id="txtPegawai" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
-                      <Component id="jComboBox1" min="-2" pref="183" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="btnTambah" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnKembali" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
@@ -207,9 +199,7 @@
                           <Component id="btnTambah" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="btnKembali" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                      <EmptySpace min="113" pref="247" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -306,14 +296,6 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKembaliActionPerformed"/>
       </Events>
-    </Component>
-    <Component class="javax.swing.JComboBox" name="jComboBox1">
-      <BindingProperties>
-        <BindingProperty name="elements" source="usersList" target="jComboBox1" targetPath="elements" updateStrategy="0" immediately="false"/>
-      </BindingProperties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-      </AuxValues>
     </Component>
   </SubComponents>
 </Form>
